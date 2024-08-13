@@ -21,10 +21,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         setContentView(binding.getRoot());
 
-
         setSupportActionBar(binding.toolbar);
         getSupportActionBar().setTitle("Transaction");
 
+        binding.floatingActionButton.setOnClickListener(view -> {
+            new AddTransactionFragment().show(getSupportFragmentManager(), null);
+        });
 
     }
     public boolean onCreateOptionsMenu(Menu menu) {
