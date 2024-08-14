@@ -1,15 +1,13 @@
-package com.example.expensemanager;
+package com.example.expensemanager.views.activities;
 
 import android.os.Bundle;
 import android.view.Menu;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
+import com.example.expensemanager.R;
 import com.example.expensemanager.databinding.ActivityMainBinding;
+import com.example.expensemanager.views.fragments.AddTransactionFragment;
 
 public class MainActivity extends AppCompatActivity {
 
