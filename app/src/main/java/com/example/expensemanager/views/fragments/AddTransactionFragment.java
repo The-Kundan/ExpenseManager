@@ -19,6 +19,8 @@ import com.example.expensemanager.adapters.AccountsAdapter;
 import com.example.expensemanager.adapters.CategoryAdapter;
 import com.example.expensemanager.databinding.FragmentAddTransactionBinding;
 import com.example.expensemanager.databinding.ListDialogBinding;
+import com.example.expensemanager.utils.Constants;
+import com.example.expensemanager.utils.Helper;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 
 import java.text.SimpleDateFormat;
@@ -63,8 +65,8 @@ public class AddTransactionFragment extends BottomSheetDialogFragment {
                 calendar.set(Calendar.MONTH,datePicker.getMonth());
                 calendar.set(Calendar.YEAR,datePicker.getYear());
 
-                SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
-                String dateToShow = dateFormat.format(calendar.getTime());
+//                SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+                String dateToShow = Helper.formatDate(calendar.getTime());
                 binding.date.setText(dateToShow);
 
             });
@@ -75,15 +77,7 @@ public class AddTransactionFragment extends BottomSheetDialogFragment {
             AlertDialog categoryDialog = new AlertDialog.Builder(getContext()).create();
             categoryDialog.setView(dialogBinding.getRoot());
 
-            ArrayList<Category> categories = new ArrayList<>();
-            categories.add(new Category("Salary",R.drawable.ic_salary,R.color.category1));
-            categories.add(new Category("Business",R.drawable.ic_business,R.color.category2));
-            categories.add(new Category("Investment",R.drawable.ic_investment,R.color.category3));
-            categories.add(new Category("Loan",R.drawable.ic_loan,R.color.category4));
-            categories.add(new Category("Rent",R.drawable.ic_rent,R.color.category5));
-            categories.add(new Category("Other",R.drawable.ic_other,R.color.category6));
-
-            CategoryAdapter categoryAdapter = new CategoryAdapter(getContext(), categories, new CategoryAdapter.CategoryClickListener() {
+            CategoryAdapter categoryAdapter = new CategoryAdapter(getContext(), Constants.categories, new CategoryAdapter.CategoryClickListener() {
 
                 @Override
                 public void onCategoryClicked(Category category) {
