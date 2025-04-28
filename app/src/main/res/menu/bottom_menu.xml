@@ -5,14 +5,28 @@
         android:id="@+id/transactions"
         android:icon="@drawable/ic_book"
         android:title="Trans." />
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
     <item
         android:id="@+id/stats"
         android:icon="@drawable/ic_chart"
         android:title="Stats" />
     <item
+<<<<<<< HEAD
         android:id="@+id/Payment"
         android:icon="@drawable/ic_accounts"
         android:title="Payment" />
+=======
+        android:id="@+id/accounts"
+        android:icon="@drawable/ic_accounts"
+        android:title="Accounts" />
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/ic_more"
+        android:title="More" />
+
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
 
 </menu>

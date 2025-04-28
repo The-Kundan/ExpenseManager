@@ -11,11 +11,19 @@
         android:layout_marginStart="8dp"
         android:background="@drawable/category_bg"
         android:padding="10dp"
+<<<<<<< HEAD
         app:tint="@color/white"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/linearLayout3"
         app:srcCompat="@drawable/ic_investment" />
+=======
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout3"
+        app:srcCompat="@drawable/ic_investment"
+        app:tint="@color/white" />
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
 
     <LinearLayout
         android:id="@+id/linearLayout3"
@@ -28,7 +36,11 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
+<<<<<<< HEAD
             android:id="@+id/transactionCategory"
+=======
+            android:id="@+id/Transactioncategory"
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/roboto_bold"
@@ -40,11 +52,18 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+<<<<<<< HEAD
             android:gravity="center"
             android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/accountLbl"
+=======
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/paymentMode"
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -62,22 +81,39 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="1"
+<<<<<<< HEAD
                 android:gravity="center"
                 android:text="17 May, 2023"
                 android:textColor="#9E9E9E"
+=======
+                android:text="22 July,2024"
+                android:textColor="#ACA7A7"
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
                 android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
 
     <TextView
+<<<<<<< HEAD
         android:id="@+id/transactionAmount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
+=======
+        android:id="@+id/transactionAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
         android:fontFamily="@font/roboto_bold"
         android:text="1000"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout3"
         app:layout_constraintEnd_toEndOf="parent"
+<<<<<<< HEAD
         app:layout_constraintTop_toTopOf="@+id/linearLayout3" />
+=======
+        app:layout_constraintTop_toTopOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.333" />
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
 </androidx.constraintlayout.widget.ConstraintLayout>

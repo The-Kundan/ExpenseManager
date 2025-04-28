@@ -9,7 +9,10 @@
     <color name="greenColor">#4CAF50</color>
     <color name="redColor">#F44336</color>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
     <color name="category1">#4CAF50</color>
     <color name="category2">#F44336</color>
     <color name="category3">#9C27B0</color>
@@ -17,13 +20,20 @@
     <color name="category5">#E91E63</color>
     <color name="category6">#877606</color>
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
     <color name="bank_color">#A8004175</color>
     <color name="cash_color">#A8007502</color>
     <color name="card_color">#A8750033</color>
     <color name="default_color">#A8303030</color>
 
+<<<<<<< HEAD
     <color name="teal_200">#FF03DAC5</color>
 
 
+=======
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
 
 </resources>

@@ -3,11 +3,17 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+<<<<<<< HEAD
+=======
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
         android:icon="@drawable/ic_search"
         android:title="Search"
         app:showAsAction="always" />
     <item
         android:icon="@drawable/ic_star"
+<<<<<<< HEAD
         android:title="Favorties"
         app:showAsAction="always" />
     <item
@@ -46,4 +52,8 @@
         android:orderInCategory="104"
         app:showAsAction="never"
         />
+=======
+        android:title="Favoutites"
+        app:showAsAction="always" />
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
 </menu>

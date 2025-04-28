@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+<<<<<<< HEAD
+=======
+    xmlns:tools="http://schemas.android.com/tools"
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -8,10 +12,17 @@
         android:id="@+id/categoryIcon"
         android:layout_width="42dp"
         android:layout_height="42dp"
+<<<<<<< HEAD
         android:layout_marginTop="5dp"
         android:background="@drawable/category_bg"
         android:padding="10dp"
         app:tint="@color/white"
+=======
+        android:layout_marginTop="3dp"
+        android:background="@drawable/category_bg"
+        android:padding="10dp"
+        android:tint="@color/white"
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
