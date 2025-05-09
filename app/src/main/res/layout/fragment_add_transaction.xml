@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+=======
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/dialog_bg"
     tools:context=".views.fragments.AddTransactionFragment">
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -31,8 +38,12 @@
                     android:fontFamily="@font/roboto_medium"
                     android:gravity="center"
                     android:padding="12dp"
+<<<<<<< HEAD
+                    android:text="Income" />
+=======
                     android:text="Income"
                     android:textStyle="bold" />
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
 
                 <TextView
                     android:id="@+id/expenseBtn"
@@ -44,8 +55,12 @@
                     android:fontFamily="@font/roboto_medium"
                     android:gravity="center"
                     android:padding="12dp"
+<<<<<<< HEAD
+                    android:text="Expense" />
+=======
                     android:text="Expense"
                     android:textStyle="bold" />
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
             </LinearLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -120,7 +135,13 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:gravity="center"
+<<<<<<< HEAD
+                android:text="Save Transaction"
+                app:cornerRadius="3dp" />
+
+=======
                 android:text="Save Transaction" />
+>>>>>>> 9b147020c8a9e0574b58904ff2d1755492b69f0a
         </LinearLayout>
     </ScrollView>
 </FrameLayout>
